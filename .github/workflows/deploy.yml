@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Define deployment variables
         run: |
-            echo "TARGET_DIR=/home/simples" >> $GITHUB_ENV
+            echo "TARGET_DIR=/home/sad" >> $GITHUB_ENV
             echo "BRANCH=master" >> $GITHUB_ENV
 
       - name: Deployment
